@@ -1,0 +1,16 @@
+
+:root{--bg:#0f1724;--card:#0b1220;--accent:#0b6efd;--muted:#93a3c6}
+*{box-sizing:border-box}
+body{font-family:Inter, system-ui, Arial, sans-serif;margin:0;background:linear-gradient(180deg,#071028,#071a2e);color:#e6eef8;min-height:100vh;display:flex;flex-direction:column}
+.site-header{display:flex;align-items:center;gap:16px;padding:20px 24px;border-bottom:1px solid rgba(255,255,255,0.03);background:transparent}
+.site-header h1{font-size:18px;margin:0}
+.logo svg{width:56px;height:56px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;padding:24px;flex:1}
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.03);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:10px}
+.card img{width:100%;height:160px;object-fit:cover;border-radius:8px;background:#061022}
+.title{font-weight:600;font-size:16px}
+.desc{color:var(--muted);font-size:13px}
+.actions{display:flex;gap:8px;margin-top:auto}
+button, a.button{padding:8px 10px;border-radius:8px;text-decoration:none;border:none;cursor:pointer;background:var(--accent);color:white;font-weight:600}
+a.secondary{background:transparent;border:1px solid rgba(255,255,255,0.06);color:#cfe0ff}
+.site-footer{padding:14px 24px;text-align:center;color:var(--muted);font-size:13px}
